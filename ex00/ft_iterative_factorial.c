@@ -6,10 +6,10 @@
 /*   By: nmoosa <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/21 13:11:41 by nmoosa            #+#    #+#             */
-/*   Updated: 2020/06/22 10:07:41 by nmoosa           ###   ########.fr       */
+/*   Updated: 2020/06/25 09:35:39 by nmoosa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-int		ft_iterative_factorial(int nb);
+
 
 int		ft_iterative_factorial(int nb){
 	if (nb <= 5){
