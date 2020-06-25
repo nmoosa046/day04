@@ -1,10 +1,21 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_iterative_power.c                               :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: nmoosa <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/06/25 09:37:37 by nmoosa            #+#    #+#             */
+/*   Updated: 2020/06/25 09:38:06 by nmoosa           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 
-int	ft_iterative_power(int nb, int power);
-
-int	ft_iterative_power(int nb, int power){
+int	ft_iterative_power(int nb, int power)
+{
 	int result = 1;
-	while(power--){
+	while(power--)
+	{
 		result *= nb;
 	}
 	return result;
